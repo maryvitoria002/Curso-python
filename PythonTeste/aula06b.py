@@ -1,3 +1,5 @@
+# TIPOS PRIMITIVOS DE SAÍDA DE DADOS
+
 n = input('Digite algo: ')
 
 #Se o valor é numérico 
