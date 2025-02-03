@@ -1,0 +1,1 @@
+#Crie o programa que leia duas notas de um alino e calcule sua media, mostrando uma mensagem final de acordo: média abaixo de 5.0: reprovado, média entre 5 e 6.9: em recuperação. Média 7 ou superior: aprovado.

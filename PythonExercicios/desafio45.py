@@ -1,0 +1,1 @@
+#crie um programa que faça o computador jogar pedra papel tesoura com você.
