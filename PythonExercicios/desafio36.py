@@ -4,4 +4,9 @@ vc = float(input('Qual o valor da casa? '))
 sc = float(input('Qual seu salário? '))
 anos = float(input('Em quantos anos voce vai pagar? '))
 
-if vc / 
+prestacao = vc / (anos*12)
+
+if prestacao > (sc * 0.3):
+    print(f'A prestação ficou no valor de R${prestacao:.2f}, não foi aprovado')
+else: 
+    print(f'A prestação ficou no valor de R${prestacao:.2f}, foi aprovado')

@@ -21,5 +21,5 @@ print('Divisão inteira {} e a portência é {}'.format(di, e))
 
 #se eu quiser que haja uma quebra de linha eu coloco \n
 
-print('A soma é {},\n o produto é {}\n e a divisão é {:.3f}'.format(s, m, d))
+print('A soma é {},\n o produto é {}\n   e a divisão é {:.3f}'.format(s, m, d))
 print('Divisão inteira {} e a portência é {}'.format(di, e))
