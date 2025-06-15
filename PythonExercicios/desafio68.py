@@ -16,3 +16,33 @@
 # vamos jogar novamente...
 # diga um valor:
 # (so para quando vc perde)
+import random
+i = 0
+while True:
+    valor = int(input("Digite um valor: "))
+    escolha = input("voce quer par ou impar [P/I]: ").upper()
+    comp = random.randint(0, 10)
+    soma = comp + valor
+    if soma % 2 ==0:
+        print(f'voce jogou {valor} e o computador jogou {comp}. Total de {soma}, deu par')
+        if escolha == 'P':
+            print('Você venceu!!')
+            i +=1
+        elif escolha =='I':
+            print(f'Você perdeu, ganhou {i} vezes!!')
+            break
+        else:
+            print('Não foi essa opção que foi dado')
+            continue
+    else: 
+        print(f'voce jogou {valor} e o computador jogou {comp}. Total de {soma}, deu ímpar')
+        if escolha == 'I':
+            print('Você venceu!!')
+            i +=1
+        elif escolha =='P':
+            print(f'Você perdeu, ganhou {i} vezes!!')
+            break
+        else:
+            print('Não foi essa opção que foi dado')
+            continue
+    
